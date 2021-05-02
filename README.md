@@ -1,26 +1,30 @@
-# Express Boilerplate!
+Dietitian's Restaurant Locator
 
-This is a boilerplate project used for starting new projects!
+Link to live app: https://dietitians-restaurant-locator-yl1462.vercel.app/
 
-## Set up
+Documentation of Client: https://github.com/yl1462/DietitiansRestaurantLocator.git
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+Documentation of API: https://desolate-refuge-01917.herokuapp.com/
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+This is an app for you to contribute, update, and of course, browse restaurants that fit various dietary needs.
+We are just getting started. For now, please choose between: Keto, Mediterranean, and Plant-based diet.
+There is no ad or complicated functions to confuse you. Simple but functional.
 
-## Scripts
+Screenshots:
 
-Start the application `npm start`
+Landing page gives a brief introduction on the app: 
+![Screen Shot 2021-05-02 at 13 50 23 PM](https://user-images.githubusercontent.com/68250067/116824076-d5a31b80-ab4d-11eb-8fc3-40a68a39e51f.png)
 
-Start nodemon for the application `npm run dev`
+Main page of the app, restaurants (for demo purpose) with different dietary needs listed clearly for users. User can easily add, edit, or delete their entries:
+![Screen Shot 2021-05-02 at 13 50 29 PM](https://user-images.githubusercontent.com/68250067/116824095-f4a1ad80-ab4d-11eb-9efe-f9d60f8ed180.png)
 
-Run the tests `npm test`
+![Screen Shot 2021-05-02 at 13 51 04 PM](https://user-images.githubusercontent.com/68250067/116824164-5f52e900-ab4e-11eb-9d5e-ebc1808c8219.png)
 
-## Deploying
+Add new restaurant to the list and select the kind of diet that fits this restaurant:
+![Screen Shot 2021-05-02 at 13 50 41 PM](https://user-images.githubusercontent.com/68250067/116824160-55c98100-ab4e-11eb-8c77-8267147ab395.png)
 
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's main branch.
+Technology used:
+  Javascript,
+  Node,
+  CSS,
+  HTML
